@@ -39,6 +39,25 @@ body {
 
 }
 
+
+h1, h2, h3, h4, h5, h6, p, ul, li, table {
+  font-family: 'Lato', sans-serif;
+}
+
+#portal-header {
+    background-color: #00A500;
+    background-image: none;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: auto auto;
+    color: #FFF;
+}
+
+
+
 #content-wrapper {
     margin: 1em auto 0;
     width: 910px;
@@ -50,10 +69,6 @@ body {
     line-height: 1.5em;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-}
 
 .grid-row {
     display: block;
@@ -133,5 +148,7 @@ div.sidebar {
     margin-left: 1em;
     padding-top: 0.5em;
 }
+
+
     
 }
