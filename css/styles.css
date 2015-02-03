@@ -568,10 +568,8 @@ h1, h2, h3, h4, h5, h6, p, ul, li, table {
 
 #tdffooter {
   background-color: #F0F2F2;
-  padding:4 0 10 5;
-  
-    
-}
+  padding-top: 0.5em;
+} 
 
 #tdffooter p {
- margin: 0 0 10 5;
+ margin: 10 10 10 10;
