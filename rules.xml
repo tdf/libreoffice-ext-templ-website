@@ -26,7 +26,20 @@
         <after css:theme-children="html body" css:content="html head script" />
 
         <!-- Insert your own rules here -->
-
+        
+        <replace css:content="#portal-siteactions" css:theme="#portal-siteactions" />
+        
+        <replace css:content="#portal-searchbox" css:theme="#portal-searchbox" />
+        
+        <replace css:content="#portal-personaltools-wrapper" css:theme="#portal-personaltools-wrapper" />
+        
+        <replace css:content="#portal-languageselector" css:theme="#portal-languageselector" />
+        
+        <replace css:content="#portal-globalnav" css:theme="#portal-globalnav" />
+        
+        <replace css:content="#portal-breadcrumbs" css:theme="#portal-breadcrumbs" />
+       
+        <replace css:content="#content" css:theme="#content" />
+        
     </rules>
-
 </rules>
