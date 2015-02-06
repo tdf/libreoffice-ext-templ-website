@@ -38,6 +38,8 @@
         <replace css:content="#portal-globalnav" css:theme="#portal-globalnav" />
         
         <replace css:content="#portal-breadcrumbs" css:theme="#portal-breadcrumbs" />
+	
+	<after css:theme="#portal-breadcrumbs" css:content="#edit-bar" />
        
         <replace css:content="#content" css:theme="#content" />
         
