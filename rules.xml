@@ -7,6 +7,10 @@
     <!-- Apply the following rules to standard Plone pages -->
     <rules css:if-content="#visual-portal-wrapper">
 
+        <!-- Add meta tags -->
+        <drop css:content="link[href$='public.css']" />
+        <drop css:content="link[href*='base']" />
+
         <theme href="index.html" />
 
         <!-- Replace title with Plone's page title  -->

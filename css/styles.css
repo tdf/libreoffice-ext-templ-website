@@ -193,7 +193,7 @@ div.sidebar {
  
 #portal-personaltools {
   background:transparent url(../images/tdfexttemp_perstoolsback.png) no-repeat 0 -250px;
-  padding:1px 20px 90px;
+  padding:1px 20px 120px;
   } 
  
 /*---------- PORTAL SEARCHBOX ----------*/
@@ -557,6 +557,13 @@ h1, h2, h3, h4, h5, h6, p, ul, li, table {
   position:absolute;
   width:1px;
   }
+
+#portal-footer {
+    background: none repeat scroll;
+    padding: 1em;
+    margin: 1em 0px;
+    line-height: 2em;
+}
   
 
 /*------ TDF Footer -----*/
