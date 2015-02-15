@@ -10,6 +10,7 @@
         <!-- Add meta tags -->
         <drop css:content="link[href$='public.css']" />
         <drop css:content="link[href*='base']" />
+	<drop css:content="link[href$='favicon.ico']" />
 
         <theme href="index.html" />
 
