@@ -549,12 +549,7 @@
         white-space: nowrap;
     }
 
-    #portal-globalnav li a {
-        border-radius: 0;
-        display: block;
-        padding: 1em;
-    }
-
+ 
     #portal-globalnav li ul {
         display: none !important;
     }
@@ -568,7 +563,7 @@
 
     #portal-personaltools {
         background: transparent url(../images/tdfexttemp_perstoolsback.png) no-repeat 0 -250px;
-        padding: 1px 20px 120px;
+        padding: 1px 20px 130px;
     }
 
     #portal-personaltools .actionMenuHeader a {
@@ -659,30 +654,101 @@
     }
 
     /*------ Portal Portlets -----------*/
-    /*----- Content pulldowns -----*/
-    .actionMenu dt {
-        font-weight: normal;
-    }
+    
+    
+    
+    
 
-    .actionMenu li {
-        margin: 0;
-    }
 
-    .actionMenu a {
-        color: #fff;
-        display: block;
-        line-height: 1.73em;
-        text-decoration: none;
-    }
+/*----- Edit Bar -----*/
+#edit-bar {
+  background-color:#75ad0a;
+  min-height:1.73em;
+  margin:0 0 1em;
+  padding:3px;
+  }
+#content-views {
+  background-color:#75ad0a;
+  float:left;
+  }
+#content-views li {
+  display:inline;
+  }
+#content-views a {
+  color:#fff;
+  display:inline-block;
+  line-height:1.73em;
+  padding:0 0.75em;
+  text-decoration:none;
+  }
+#content-views li.selected a,
+#content-views li a:hover {
+  background:#fff;
+  color:#000;
+  }
+#content-views li.selected a {
+  font-weight:bold;
+  }
+ 
 
-    .actionMenu dt a {
-        padding: 0 3px;
-    }
-
-    .actionMenu.deactivated dd {
-        display: none;
-    }
-
+/*----- Content pulldowns -----*/
+#contentActionMenus {
+  background-color:#75ad0a;
+  float:right;
+  margin-right:-3px;
+  padding-right:3px;
+  }
+#contentActionMenus > li {
+  display:inline;
+  }
+.actionMenu {
+  float:right;
+  margin:0 0 0 0.5em;
+  position:relative;
+  white-space:nowrap;
+  }
+.actionMenu dt {
+  font-weight:normal;
+  }
+.actionMenu li {
+  margin:0;
+  }
+.actionMenu a {
+  color:#fff;
+  display:block;
+  line-height:1.73em;
+  text-decoration:none;
+  }
+.actionMenu dt a {
+  padding:0 3px;  
+  }
+.arrowDownAlternative {
+  font-size:80%;
+  }
+.actionMenu dd {
+  background-color:#75ad0a;
+  right:-3px;
+  margin:0;
+  min-width:100%;
+  padding:0 3px 3px;
+  position:absolute;
+  width:auto;
+  z-index:5;
+  }
+.actionMenu.deactivated dd {
+  display:none;
+  }
+.actionMenu dd a:hover,
+.actionMenu dd .actionMenuSelected {
+  background-color:#fff;
+  color:#666;
+  }
+.subMenuTitle {
+  display:block;
+  padding:0 3px;
+  }
+ 
+ 
     /*--------- Site Special Customization -------------*/
     /* ----- Grid Row --------------*/
     .grid-row {
@@ -764,6 +830,25 @@
         margin-left: 1em;
         padding-top: 0.5em;
     }
+    
+     
+    .project-thumb {
+       float: left;
+       margin-right: 5px;
+       margin-top: 5px;
+}
+
+.downloads li {
+    vertical-align: top;
+    clear:both;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px dashed #CCC;
+}
+
+.product-details p {
+    padding-top:6px;
+}
 
     /*-------- TDF ------------*/
     /*------ TDF Footer -----*/
