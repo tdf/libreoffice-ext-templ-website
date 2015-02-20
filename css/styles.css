@@ -827,11 +827,52 @@
     }
 
     div.sidebar {
-        margin-left: 1em;
+        margin-left: 1.3em;
         padding-top: 0.5em;
+	padding-left: 0.8em;
+	border-left: 3px;
+	
     }
     
-     
+    .sidebar h2 {
+       background-color: #00A500;
+       color: white;
+       margin-top: 1.5em;
+       margin-bottom: 0.7em;
+       margin-left: -0.5em;
+       padding:1.5 1 1.5 1em;
+      
+    }
+    
+    .installinstructions h3 {
+      background-color:#F0F2F2;;
+      margin-left: -0.5em;
+      margin-top: 1.5em;
+      margin-bottom: 0.3em;
+      padding:1.5 1 1.5 1em;
+    }
+    
+ 
+    
+    .bugreporting h3 {
+      background-color:#F0F2F2;;
+      margin-left: -0.5em;
+      margin-top: 1.5em;
+      margin-bottom: 0.3em;
+      padding:1.5 1 1.5 1em;
+    }
+    
+       
+    .aboutproduct h3 {
+      background-color:#F0F2F2;;
+      margin-left: -0.5em;
+      margin-top: 1.5em;
+      margin-bottom: 0.3em;
+      padding:1.5 1 1.5 1em;
+    }
+ 
+ 
+ 
     .project-thumb {
        float: left;
        margin-right: 5px;
